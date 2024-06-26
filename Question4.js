@@ -12,9 +12,12 @@ class Node {
     }
 
     constructor deleteAt(index); 
+    list = 4 <-> 5 <-> 6 <-> 4 
+    
+    // (circular doubly linked list)
+    index = 0
         head.next > 4 > 5 > 6 < 4;
         head.last > 4 > 6 < 5 < 4;
-    
 
   console.log(deleteAt);
 
