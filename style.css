@@ -1,0 +1,43 @@
+div {
+    border: 15 px solid black;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    height: 15px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    align-items: 15 px;
+}
+
+.columns {
+    flex: 1;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.columns {
+    flex: 2;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.columns {
+    flex: 3;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+}
+
+.rect {
+    flex: 1;
+}
