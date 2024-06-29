@@ -4,37 +4,63 @@
     <title>
       Exam Question 1
     </title>
-  <link rel="stylesheet" href ="style.css"/>
+    <style>
+      body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+      .columns {
+      display: flex;
+      justify-content: center;
+      }
+
+      </style>
   </head>
   <body>
-    <link rel="stylesheet" href ="style.css"/>
-    <div>
-      <span class="text">Search</span>
-    </div>
     <header>
       <h1>Page Header</h1>
     </header>
-    <section class="columns">
-      <article class="columns">
+    <div>
+      <span class="text">Search</span>
+    </div>
+    <style>
+      .text {
+        border: 1px solid black;
+        padding: 20 px;
+        margin: 100px;
+      }
+    </style>
+    <section class="flexbox">
+      <article class="flex1">
         <header>
           <h1>Column 1</h1>
         </header>
         <p>Lorem ipsum...</p>
       </article>
-      <article class="columns">
+      <article class="flex1">
         <header>
           <h1>Column 2</h1>
         </header>
         <p>Lorem ipsum...</p>
       </article>
-      <article class="columns">
+      <article class="flex1">
         <header>
           <h1>Column 3</h1>
         </header>
         <p>Lorem ipsum...</p>
       </article>
+      <style>
+        .flexbox {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .flex1 {
+        flex: 1;
+      }
+      </style>
     </section>
-    </div>
     <footer>
       <p>Page Footer</p>
     </footer>
