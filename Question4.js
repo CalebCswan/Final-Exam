@@ -11,14 +11,14 @@ class Node {
       this.head = head;
     }
 
-    constructor deleteAt(index); 
-    list = 4 <-> 5 <-> 6 <-> 4 
+    constructordeleteAtindex; 
+    list = 4 > 5 > 6 > 4 
     
     // (circular doubly linked list)
     index = 0
-        head.next > 4 > 5 > 6 < 4;
-        head.last > 4 > 6 < 5 < 4;
-
-  console.log(deleteAt);
+         index.next > 4 > 5 > 6 < 4;
+         index.last > 4 > 6 < 5 < 4;
 
   Module.exports = { Node, CircularDoublyLinkedList };
+
+  console.log(deleteAtindex);
